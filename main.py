@@ -2,7 +2,7 @@ import argparse
 from argparse import HelpFormatter
 import os
 
-
+# https://gist.github.com/Barakat/43b641bff3b27c9e0af3
 def encrypt(plaintext, shift):
     cipher = bytearray(plaintext.encode('utf-8'))
     for i, c in enumerate(cipher):
