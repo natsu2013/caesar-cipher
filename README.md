@@ -20,6 +20,9 @@ Enjoy the moment! :)
 
 ## Usage:
 ```console
-Ξ crypto/ceasar git:(master) ▶ python3 main.py --key=4 --plaintext='heLLoworld' -e
+Ξ crypto/ceasar ▶ python3 main.py --key=4 --plaintext='heLLoworld' -e
+[!] - Save to ./caesar_enc.txt
+
+Ξ crypto/ceasar ▶ python3 main.py --key=4 --ciphertext='liPPs{svph' -d
 [!] - Save to ./caesar_enc.txt
 ```
