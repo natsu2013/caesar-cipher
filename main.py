@@ -12,7 +12,7 @@ def encrypt(plaintext, shift):
 def decrypt(ciphertext, shift):
     plain = bytearray(len(ciphertext))    
     for i, c in enumerate(ciphertext):
-        plain[i] = (c - shift) & 0xff
+        plain[i] = (ord(c) - shift) & 0xff
     return plain.decode('utf-8')
 
 FUNCTION_MAP = { 'e': encrypt, 'd': decrypt }
